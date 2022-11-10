@@ -1,6 +1,5 @@
 package com.example.moviecatalogservice.models;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonSerialize
+//@JsonSerialize
 public class CatalogItem {
 
     private String name;
