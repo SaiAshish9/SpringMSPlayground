@@ -22,6 +22,9 @@ public class MovieCatalogResource {
 
     @RequestMapping("/{userId}")
     public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
+
+
+
         List<Rating> ratings = Arrays.asList(
                 new Rating("1",1),
                 new Rating("2",2)
